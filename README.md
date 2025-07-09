@@ -6,13 +6,6 @@ The portfolio is designed to reflect my proficiency in HTML, CSS, JavaScript, an
 
 ---
 
-## 🚀 Live Demo
-
-🌐 [View Portfolio Online](https://yourusername.github.io/your-repo-name/)  
-👉 Replace this link with your actual deployed site (GitHub Pages, Netlify, etc.)
-
----
-
 ## 🛠️ Built With
 
 - **HTML5** – Structure and content
