@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Kaaviyan A</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="nav-container">
+        <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="contact.html" >Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+
+  <section class="skills-wrapper">
+    <div class="skills-header">
+      <h1>My Work & Skills</h1>
+      <p>Here are some of the technologies I work with and projects I’ve built recently.</p>
+    </div>
+  
+    <div class="skills-content">
+        <h2>Technical Skills</h2>
+        <div class="skills-card">
+          <ul>
+            <li><strong>Front-End</strong> HTML5, CSS3, JavaScript</li>
+            <li> <strong>Libraries & Tools:</strong> Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn</li>
+            <li><strong>Platforms:</strong> Jupyter Notebook, Google Colab, VS Code, Git</li>
+            <li>Version Control (Git & GitHub), Data Analysis</li>
+            <li> <strong>AI & Computer Vision Tools:</strong> YOLOv8, OpenCV, Text-to-Speech (pyttsx3)</li>
+            <li><Strong>Other Languages:</Strong>Python, C</li>
+          </ul>
+        </div>
+      </div>      
+  </section>
+  
+
+
+  <!-- Projects Section -->
+  <section class="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+          This is the website you're viewing now — my personal portfolio. I designed and developed it to showcase my skills, experience, certifications, and projects as a front-end developer.
+          The site is built using core web technologies like <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Vanilla JavaScript</strong>, ensuring that every line of code is lightweight and custom-built without relying on frameworks.
+        </p>
+      
+        <p>
+          It features a responsive layout that adjusts to different screen sizes, a fixed navigation bar, animated certificate previews, and a modal for zoomed certificate viewing. 
+          Each page (Home, Projects, Contact) is cleanly separated for maintainability, but they all share a common design system using a single stylesheet.
+        </p>
+      
+        <p>
+          <strong>Technologies used:</strong> HTML5, CSS3 (Flexbox, Grid, media queries), JavaScript (DOM manipulation, modal), VS Code.
+        </p>
+      
+        <p>
+          <strong>Benefits:</strong> Professional presentation of my profile, reusable design, fully responsive, and easy to scale.
+        </p>
+      
+        <p>
+          <strong>Limitations:</strong> Static content — no backend or contact form submission logic yet. May require integration with a service like Formspree or Google Forms.
+        </p>
+      </div>
+      
+
+      <div class="project-card">
+        <h3>Training Management System (Internship Project)</h3>
+        <p>
+          During my internship at <strong>Zummit Infolab</strong>, I contributed to the front-end development of a Training Management System for internal training coordination. 
+          The application allows users to browse, register, and track various training programs, while admins can manage session details and attendance.
+        </p>
+      
+        <p>
+          I created a clean user interface using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. I focused on making the layout responsive and user-friendly, with dynamic navigation components and forms. 
+          I collaborated with team members via GitHub and followed agile practices for updates.
+        </p>
+      
+        <p>
+          <strong>Technologies used:</strong> HTML5, CSS3, JavaScript, GitHub, VS Code.
+        </p>
+      
+        <p>
+          <strong>Benefits:</strong> Practical experience with UI development, real-world team collaboration, exposure to training domain use cases.
+        </p>
+      
+        <p>
+          <strong>Limitations:</strong> No database/backend integration in my role; limited to front-end interface design only.
+        </p>
+      </div>
+      
+
+      <div class="project-card">
+        <h3>AI Vision Assist – Object Detection & Voice Feedback</h3>
+        <p>
+          <strong>AI Vision Assist</strong> is an intelligent tool built for visually impaired individuals. It captures real-time video from a webcam and uses the powerful <strong>YOLOv8x</strong> (You Only Look Once) object detection model to identify everyday objects in the environment.
+          Upon detection, the system converts the object labels into speech using <strong>pyttsx3</strong>, allowing users to "hear what the camera sees".
+        </p>
+      
+        <p>
+          Built with <strong>Python</strong>, this project leverages the <strong>Ultralytics YOLOv8x</strong> model for object detection, <strong>OpenCV</strong> for camera handling and image processing, and <strong>pyttsx3</strong> for offline text-to-speech functionality.
+          The goal is to assist users in identifying obstacles or objects like people, bottles, chairs, doors, etc., in both indoor and outdoor environments.
+        </p>
+      
+        <p>
+          <strong>Technologies used:</strong> Python, OpenCV, Ultralytics YOLOv8x, pyttsx3, NumPy, Tkinter (for optional GUI).
+        </p>
+      
+        <p>
+          <strong>Benefits:</strong> Improves spatial awareness for visually impaired users, can work offline (no internet needed), and provides real-time feedback.
+        </p>
+      
+        <p>
+          <strong>Limitations:</strong> Performance depends on camera quality and lighting conditions. Currently identifies common objects only; no custom training yet. Voice announcements may overlap if too many objects are detected simultaneously.
+        </p>
+      </div>
+      
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Kaaviyan A. All rights reserved.</p>
+  </footer>
+</body>
+</html>
